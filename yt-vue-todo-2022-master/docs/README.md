@@ -92,9 +92,15 @@ JSON.stringify( )는 자바스크립트의 값을 JSON 문자열로 변환
 - value(필수): JSON 문자열로 변환할 값이다.(배열, 객체, 또는 숫자, 문자 등이 될 수 있다.)
 - replacer(선택): 함수 또는 배열이 될 수 있다. 이 값이 null 이거나 제공되지 않으면, 객체의 모든 속성들이 JSON 문자열 결과에 포함된다.
 
+#### 콜론class란?
+v-bind: 디렉티브는 콜론 ‘:’ 약어로 사용할 수 있다. 예를 들면 v-bind:class를 :class 로 사용가능하다.
+- html의 속성(id, class, style)에 model의 데이터를 넣고자 할 때 사용함.
+
 ---
 **참고링크**
 - https://joshua1988.github.io/vue-camp/syntax/computed.html#computed-%E1%84%89%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC-%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5
 - https://joshua1988.github.io/vue-camp/syntax/watch.html#watch-%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3-%E1%84%92%E1%85%A7%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8
 - v-model : https://engineer-mole.tistory.com/333
 - v-model : https://joshua1988.github.io/web-development/vuejs/v-model-usage/
+- :class(인데 vue함수의 라이프 사이클이 더 짱) : https://hanamon.kr/vue-%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%AC%B8%EC%84%9C-%EB%94%B0%EB%9D%BC%EA%B0%80%EA%B8%B0-%EC%83%81/
+- v-bind(:) : https://goodteacher.tistory.com/532
