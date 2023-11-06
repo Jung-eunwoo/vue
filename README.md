@@ -7,12 +7,13 @@ https://youtu.be/-tVaahsXpwk
 vue의 문서 구조 및 if, 반복문 등의 주요 문법 숙지
 
 ### vue를 사용하는 이유
--
+- react보다 빠른 반응속도
 
 ### vue 문법
 **if**
 
-- 
+- v-if
+    -
 **for**
 
 - 
