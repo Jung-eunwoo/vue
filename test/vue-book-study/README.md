@@ -1,4 +1,4 @@
-# vue-projet-manually
+# vue-book-study
 
 ## Project setup
 ```
