@@ -7,24 +7,12 @@
         below
       </p>
     </div>
-    <el-row class="mb-4" style="display:flex; justify-content:center">
-      <el-button>Default</el-button>
-      <el-button type="primary">Primary</el-button>
-      <el-button type="success">Success</el-button>
-      <el-button type="info">Info</el-button>
-      <el-button type="warning">Warning</el-button>
-      <el-button type="danger">Danger</el-button>
-    </el-row>
+    <cp-icon-circle-button/>
   </div>
 </template>
 
-<script>
-
-export default {
-  name: 'App',
-  components: {
-  }
-}
+<script setup lang="ts">
+import CpIconCircleButton from './components/CpIconCircleButton.vue';
 </script>
 
 <style>
