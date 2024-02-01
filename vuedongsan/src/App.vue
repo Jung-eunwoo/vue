@@ -1,4 +1,8 @@
 <template>
+
+  <div>
+    <input type="text" v-model="valueModel"/>
+  </div>
   <!-- v-if="조건식" : 조건식이 참 일때만 HTML 보여줌-->
   <div @click="isOpenModal = !isOpenModal">
     <div class="black-bg" v-if="isOpenModal === true">
@@ -22,11 +26,13 @@
     <!-- @ == v- 의 약자 -->
     <button @click="product.reportNum += 1">허위매물신고</button><span>신고수 : {{ product.reportNum }}</span>
   </div>
+
+  
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import oneroomdata from './assets/oneroom'
+// import oneroomdata from './assets/oneroom'
 
 
 export default {
@@ -36,6 +42,7 @@ export default {
       // 데이터 보관함 : 저장하고 싶은 변수들을 다 담아놓으면 됨
       // HTML 속성도 데이터 바인딩 가능
       // :(콜론)style="데이터이름" 으로 지정
+      valueModel:'안녕뭐가뭔지모르겠어..',
       isOpenModal: false,
       menus: ['Home', 'Shop', 'About'],
       products: [{ name: '역삼동원룸', price: 50, reportNum: 0 }, { name: '하삼동원룸', price: 60, reportNum: 0 }, { name: '수완동원룸', price: 80, reportNum: 0 }],
